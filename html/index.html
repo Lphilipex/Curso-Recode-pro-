@@ -5,15 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>agencia de viagens</title>
+  <link rel="stylesheet" href="css.css">
 
   <link rel="stylesheet" href="/css/bootstrap.css">
 </head>
 
-<body class="bg-dark">
+<body class="bg-primary">
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid bg- ">
-      <a class="navbar-brand" href="/index.html">Agencia de Viagens</a>
+  <div class="container d-flex bg-primary m-auto  p-3" style="background-image: url(/imagens/pag.jpg); ">
+
+    <nav id="navbar" class="navbar navbar-expand-lg  >
+      <div class=" container-fluid bg- ">
+        <a class=" navbar-brand" href="/index.html">Agencia de Viagens Descubra o Mundo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,57 +35,77 @@
           <li class="nav-item">
             <a class="nav-link" href="/html/contatos.html">Contatos</a>
           </li>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-atomic="Search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
         </ul>
       </div>
-    </div>
+  </div>
   </nav>
-  <div class="card.fluid text-center  mx-3 mt-3 bg-secondary">
+  </div>
+  <div class="card.fluid text-center  mx-3 mt-3 bg-body-primary">
 
-    <div class="card-body text-bg-secondary">
-      <h5 class="card-title">Promoções</h5>
-      <p class="card-text">A melhor opção para fazer seu pacote de viagem venha fazer sua viagem</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="card-body text-bg-primary">
+      <h5 class="card-title text-center">Bem-vindo à nossa agência de viagens - Descubra o Mundo!</h5>
+      <p class="card-text text-xl-center">
+        Seja muito bem-vindo ao seu portal para aventuras inesquecíveis e experiências de viagem excepcionais! Na Descubra o Mundo, estamos apaixonados por explorar o planeta e proporcionar as melhores e mais memoráveis viagens aos nossos clientes.
+        Queremos ser seu parceiro de confiança para planejar cada detalhe da sua próxima jornada, independentemente do destino ou do tipo de viagem que você busca. Com anos de experiência e uma equipe de especialistas apaixonados por viagens, estamos prontos para transformar seus sonhos em realidade.
+        Por que escolher a Descubra o Mundo?</p>
+      <a href="destinos.html" class="btn btn-secondary">ver nossos destinos</a>
     </div>
 
   </div>
 
-  <hr>
 
-  <hr class="border border-primary border-3 mx-2 opacity-75">
-  <h1 class="text-center text-white">Opções de Destinos</h1>
+  <h1 class="text-center text-white">Algumas de nossas opções</h1>
 
-  <div class="cards row">
-    <div class="col-md-2 col-sm-2 mx-2 mt-2">
-      <div class="card h-80 ">
-        <img src="/imagens/GRAMADO2.webp" class="card-img-top" alt="">
-        <div class="card-body text-bg-secondary">
+  <div class="container d-flex justify-content-center">
+    <div class="row">
+
+      <div class="card bg-body-primary mx-2" style="width: 18rem;">
+        <img src="/imagens/Piscinasnaturais.jpg" class="card-img-fluid col-sm-1 w-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Maraggogi</h5>
+          <p class="card-text">Descubra o encanto de Maraggogi conosco!</p>
+          <a href="promocoes.html" class="btn btn-secondary stretched-link">Ver Promoções</a>
+        </div>
+
+      </div>
+      <div class="card bg-body-primary mx-2" style="width: 18rem;">
+        <img src="/imagens/GRAMADO2.webp" class="card-img-fluid col-sm-1 w-100" alt="GRAMADO">
+        <div class="card-body">
           <h5 class="card-title">Gramado</h5>
-          <p class="card-text">Uma opção de destino ideal para quem quer conhecer a cidade de Gramado</p>
-        </div>
-
-      </div>
-    </div>
-    <div class="col-md-2 col-sm-2 mx-2 mt-2 ">
-      <div class="card h-80 ">
-        <img src="/imagens/Piscinasnaturais.jpg" class="card-img-top" >
-        <div class="card-body text-bg-secondary">
-          <h5 class="card-title">Maragogi</h5>
-          <p class="card-text">Uma opção de destino ideal para quem quer conhecer a cidade de Maragogi</p>
-        </div>
-
-      </div>
-    </div>
-    <div class="col-md- col-sm-2 mx-2 mt-2">
-      <div class="card h-80">
-        <img src="/imagens/porto.jpg" class="card-img-top" alt="...">
-        <div class="card-body text-bg-secondary">
-          <h5 class="card-title ">Porto de Galinhas</h5>
-          <p class="card-text">Uma opção de destino ideal para quem quer conhecer a cidade de Porto de Galinhas</p>
-
+          <p class="card-text">Descubra o encanto de Gramado conosco!</p>
+          <a href="promocoes.html" class="btn btn-secondary stretched-link">Ver Promoções</a>
         </div>
       </div>
+
+      <div class="card bg-body-primary mx-2" style="width: 18rem;">
+        <img src="/imagens/porto.jpg" class="card-img-fluid col-sm-1 w-100" alt="GRAMADO">
+        <div class="card-body">
+          <h5 class="card-title">Porto de Galinhas</h5>
+          <p class="card-text">Descubra o encanto de Gramado conosco!</p>
+          <a href="promocoes.html" class="btn btn-secondary stretched-link">Ver Promoções</a>
+        </div>
+      </div>
+
     </div>
+
+  </div>
   
+ 
+  
+  <br>
+  <samp>
+    <footer class="text-center text-bg-primary">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+      </svg>
+      Agencia de Viagens Descubra o Mundo
+    </footer>
+    
+  </samp>
 
 
 
